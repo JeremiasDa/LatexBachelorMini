@@ -5,8 +5,8 @@
 
 % Set title and author used in the PDF meta data
 \hypersetup{
-  pdftitle={Wie schreibe ich eine Masterarbeit?},
-  pdfauthor={Erika Mustermann}
+  pdftitle={Römisch-deutscher Kaiser},
+  pdfauthor={Jeremias David, Fabio Strahlendorff}
 }
 
 % Depending on which of the following two color schemes you import your thesis will be in color or grayscale. I recommend to generate a colored version as a PDF and a grayscale version for printing.
@@ -14,7 +14,7 @@
 \input{schema-color}
 %\input{schema-gray}
 
-\newcommand{\duedate}{15. Juli 2016}
+\newcommand{\duedate}{13. Dezember 2016}
 
 \begin{document}
   \frontmatter
@@ -36,29 +36,8 @@
   \include{evaluation}
   \include{fazit}
 
-  \appendix
-
-  \include{appendix}
 
   \backmatter
-
-  \cleardoublepage
-  \phantomsection
-  \pdfbookmark{Abbildungsverzeichnis}{listoffigures}
-  \listoffigures
-
-  \cleardoublepage
-  \phantomsection
-  \pdfbookmark{Tabellenverzeichnis}{listoftables}
-  \listoftables
-
-  \cleardoublepage
-  \phantomsection
-  \pdfbookmark{Definitions- und Theoremverzeichnis}{listoftheorems}
-  \renewcommand{\listtheoremname}{Definitions- und Theoremverzeichnis}
-  \listoftheorems[ignoreall,show={Lemma,Theorem,Korollar,Definition}]
-
-  \include{abkuerzungen}
 
   \cleardoublepage
   \phantomsection
