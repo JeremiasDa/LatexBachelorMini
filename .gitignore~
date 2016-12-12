@@ -10,8 +10,6 @@
 *.lot
 *.out
 *.toc
-*.bcf
-*.xml
 *.synctex.gz
 # Generated PDF
 thesis.pdf
